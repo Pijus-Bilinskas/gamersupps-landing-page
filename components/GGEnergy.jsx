@@ -17,7 +17,8 @@ const GGEnergy = () => {
                 <CarouselContent>
                     {images.ggEnergyImages.map((image, index) => (
                         <CarouselItem className="lg:basis-1/4" key={index}>
-                           <div className="relative group w-full h-[400px] overflow-hidden">
+                        <div className='flex flex-col items-center text-center p-4'>
+                           <div className="relative group w-full h-[400px] overflow-hidden mb-5">
                          <Image
                         src={image.still}
                         alt="GG Energy Still"
@@ -32,6 +33,9 @@ const GGEnergy = () => {
                       className="object-cover bg-gray-600/20 absolute top-0 left-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"
                      />
                       </div>
+                      <h3 className='text-lg font-medium text-gray-300'>{image.title}</h3>
+                      <p className='text-base text-gray-300'>€{image.price}</p>
+                    </div>
                         </CarouselItem>
                     ))}
                 </CarouselContent>

@@ -15,7 +15,7 @@ const LatestDrops = () => {
             <Carousel opts={{ align: "start" }}>
                 <CarouselContent>
                 {images.latestImages.map((image) => (
-                    <CarouselItem key={image} className="basis-[100%] md:basis-1/2 lg:basis-1/4 xl:basis-1/5">
+                    <CarouselItem key={image} className="basis-[100%] md:basis-1/2 lg:basis-1/4 xl:basis-1/5 cursor-grab">
                        <div className='overflow-hidden relative h-[600px] w-full rounded-lg hover:rounded-none'>
                         <Image
                         src={image}
