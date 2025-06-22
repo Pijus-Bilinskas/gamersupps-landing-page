@@ -1,6 +1,7 @@
 import Drinkware from "@/components/Drinkware";
 import GGEnergy from "@/components/GGEnergy";
 import HeroHeader from "@/components/HeroHeader";
+import InfoCards from "@/components/InfoCards";
 import LatestCollections from "@/components/LatestCollections";
 import LatestDrops from "@/components/LatestDrops";
 import Navbar from "@/components/Navbar";
@@ -18,6 +19,7 @@ export default function Home() {
       <LatestCollections/>
       <Drinkware/>
       <SingleBanner/>
+      <InfoCards/>
     </div>
   );
 }
