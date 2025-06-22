@@ -61,9 +61,36 @@ const Navbar = () => {
 
 
 
-    {/* Sticky navbar */}
+    {showSticky && (
+  <div className="fixed top-0 left-0 w-full z-50 bg-black/80 shadow-md backdrop-blur-md transition-all">
+    <div className="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
+      <Image alt='gamer supps logo' src={"/images/gamersupps-logo.avif"} width={170} height={30} />
+      <nav className={styles.navbar_links_container} onMouseLeave={() => setHoveredLink(null)}>
+            {navbarLinks.map((link) => (
+                <div key={link.title} className={styles.navbar_links} onMouseEnter={() => setHoveredLink(link.title)}>
+                    <Link className={styles.navbar_link} href={link.href}>{link.title}</Link>
 
-
+                    {hoveredLink === link.title && link.links && (
+                    <div className={styles.navbar_sublinks}>
+                        {link.links.map((sublink) => (
+                            <Link className={styles.navbar_sublink} href={sublink.title} key={sublink.title} >
+                            {sublink.title}
+                            </Link>
+                        ))}
+                    </div>
+                    )}
+                </div>
+            ))}
+            </nav>
+      <div className="flex gap-3">
+        <button>🔍</button>
+        <button>💀</button>
+        <button>🛒</button>
+        <button>🏁</button>
+      </div>
+    </div>
+  </div>
+    )}
 
 
     </>

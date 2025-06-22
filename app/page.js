@@ -1,4 +1,5 @@
 import Drinkware from "@/components/Drinkware";
+import Footer from "@/components/Footer";
 import GGEnergy from "@/components/GGEnergy";
 import HeroHeader from "@/components/HeroHeader";
 import InfoCards from "@/components/InfoCards";
@@ -20,6 +21,7 @@ export default function Home() {
       <Drinkware/>
       <SingleBanner/>
       <InfoCards/>
+      <Footer/>
     </div>
   );
 }
