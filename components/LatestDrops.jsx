@@ -6,9 +6,9 @@ import images from '@/constants/images'
 const LatestDrops = () => {
   return (
     <div className='box-border bg'>
-        <div className='flex flex-row items-center my-4 gap-5 justify-center'>
-            <h2 className='text-2xl font-semibold text-white'>CHECK OUR LATEST DROPS HERE!</h2>
-            <button className='bg-purple-800 text-white text-lg px-3 py-1 font-semibold'>SEE WHAT'S NEW?</button>
+        <div className='flex flex-row items-center px-2 my-4 gap-5 justify-center'>
+            <h2 className='text-lg md:text-2xl font-semibold text-white'>CHECK OUR LATEST DROPS HERE!</h2>
+            <button className='bg-purple-800 text-white text-sm md:text-lg px-2 md:px-3 md:py-1 font-semibold'>SEE WHAT'S NEW?</button>
         </div>
 
         <div className='mb-12 w-full mx-auto overflow-hidden px-4'>

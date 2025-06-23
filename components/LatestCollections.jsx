@@ -6,7 +6,7 @@ import Image from 'next/image'
 const LatestCollections = () => {
   return (
     <div>
-        <h3 className='text-5xl font-bold text-center text-gray-100 mb-8'>LATEST COLLECTIONS</h3>
+        <h3 className='text-2xl px-1 md:text-5xl font-bold text-center text-gray-100 mb-8'>LATEST COLLECTIONS</h3>
 
         <div className='mb-12 w-full mx-auto overflow-hidden px-4'>
             <Carousel opts={{ align: "start" }}>

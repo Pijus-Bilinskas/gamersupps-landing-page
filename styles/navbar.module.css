@@ -76,4 +76,15 @@
     .navbar_links_container{
         display: none;
     }
+
+
+    .navbar_action_buttons button{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .navbar_action_buttons button{
+        font-size: 11px;
+    }
 }

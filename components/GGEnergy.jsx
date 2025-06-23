@@ -7,9 +7,9 @@ import Image from 'next/image';
 const GGEnergy = () => {
   return (
     <div>
-        <div className='flex flex-row items-center justify-between px-10 py-8'>
-            <Link className='text-5xl font-semibold text-gray-200' href={"/"}>GG Energy</Link>
-            <Link className='text-base text-gray-300 font-semibold underline underline-offset-5 decoration-purple-700' href={"/"}>VIEW ALL</Link>
+        <div className='flex flex-row items-center justify-between px-10 py-4 md:py-8'>
+            <Link className='text-xl md:text-5xl font-semibold text-gray-200' href={"/"}>GG Energy</Link>
+            <Link className='text-xs md:text-base text-gray-300 font-semibold underline underline-offset-5 decoration-purple-700' href={"/"}>VIEW ALL</Link>
         </div>
 
         <div className='mb-12 w-full mx-auto overflow-hidden px-4'>

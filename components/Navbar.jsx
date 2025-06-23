@@ -82,7 +82,7 @@ const Navbar = () => {
                 </div>
             ))}
             </nav>
-      <div className="flex gap-3">
+      <div className={styles.navbar_action_buttons}>
         <button>🔍</button>
         <button>💀</button>
         <button>🛒</button>

@@ -5,7 +5,7 @@ const SingleBanner = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center gap-20 py-12 px-4 overflow-hidden">
       
-      <div className="relative w-[300px] h-[400px] md:w-[430px] md:h-[550px] lg:h-[550px] lg:w-[320px] xl:w-[400px] flex-shrink-0">
+      <div className="relative w-[180px] h-[300px] md:w-[430px] md:h-[550px] lg:h-[550px] lg:w-[320px] xl:w-[400px] flex-shrink-0">
         <div className="absolute inset-0 z-10 transition-transform duration-300 hover:scale-105">
           <Image
             src="/images/try-gamersupps-card-2.webp"
@@ -15,7 +15,7 @@ const SingleBanner = () => {
           />
         </div>
 
-        <div className="absolute top-[30%] left-1/40 -translate-x-1/2 md:top-[28%] w-[250px] sm:w-[300px] md:w-[370px] lg:w-[300px] xl:w-[380px] z-20 transition-transform duration-300 hover:scale-105 rotate-[-10deg]">
+        <div className="absolute top-[40%] left-1/40 -translate-x-1/2 md:top-[28%] w-[120px] sm:w-[300px] md:w-[370px] lg:w-[300px] xl:w-[380px] z-20 transition-transform duration-300 hover:scale-105 rotate-[-10deg]">
           <Image
             src="/images/try-gamersupps-card-1.webp"
             alt="Try GamerSupps Image 1"

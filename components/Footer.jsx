@@ -8,13 +8,13 @@ const Footer = () => {
         <p className="text-lg text-white">
           Sign up for exclusive deals and early access to new products.
         </p>
-        <div className="flex flex-row gap-2">
+        <div className="flex flex-col md:flex-row max-w-sm md:max-w-xl gap-2">
           <input
             type="email"
-            className="text-white px-3 py-2 border md:min-w-md border-white hover:border-purple-700 bg-transparent"
+            className="text-white px-3 py-2 text-sm md:text-base border md:min-w-md border-white hover:border-purple-700 bg-transparent"
             placeholder="Enter your email"
           />
-          <button className="text-lg text-white font-semibold cursor-pointer bg-purple-700 px-4 py-2">
+          <button className="text-sm px-2 py-1 md:text-lg text-white font-semibold cursor-pointer bg-purple-700 md:px-4 md:py-2">
             SUBSCRIBE
           </button>
         </div>
