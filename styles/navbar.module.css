@@ -71,6 +71,9 @@
     margin-right: 0.2rem;
 }
 
+    .burger_button{
+    display: none;
+    }
 
 @media screen and (max-width: 720px) {
     .navbar_links_container{
@@ -81,10 +84,15 @@
     .navbar_action_buttons button{
         font-size: 14px;
     }
-}
 
-@media screen and (max-width: 720px) {
+    
     .navbar_action_buttons button{
-        font-size: 11px;
+        display: none;
+    }
+
+    .burger_button{
+        display: block;
+        font-weight: 700;
+        color: white;
     }
 }
